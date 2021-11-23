@@ -1,9 +1,16 @@
 
-# React Native Swipe Up Down 
+# React Native Sound Manager
 [![npm version](https://badge.fury.io/js/react-native-sound-manager.svg)](https://badge.fury.io/js/react-native-sound-manager) ![](https://img.shields.io/github/issues/minhchienwikipediareact-native-sound-manager.svg) ![](https://img.shields.io/github/forks/minhchienwikipediareact-native-sound-manager.svg) ![](https://img.shields.io/github/stars/minhchienwikipediareact-native-sound-manager.svg) ![](https://img.shields.io/github/license/minhchienwikipediareact-native-sound-manager.svg)
 
 [![NPM](https://nodei.co/npm/react-native-sound-manager.png?downloads=true&stars=true)](https://nodei.co/npm/react-native-sound-manager/)
-## This module support iOS & Android
+
+#### This package help you easy to control audio with support cache url! 
+
+---
+This package requires these, please make sure you had installed them:
+- [react-native-sound](https://github.com/zmxv/react-native-sound)
+- [react-native-fs](https://github.com/itinance/react-native-fs)
+
 
 ## Getting started
 
