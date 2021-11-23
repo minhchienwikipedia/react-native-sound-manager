@@ -1,0 +1,27 @@
+{
+  "name": "react-native-sound-manager",
+  "version": "1.0.0",
+  "description": "React Native Sound Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhchienwikipedia/react-native-sound-manager.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-sound-manager"
+  ],
+  "author": "minhchienwikipedia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/minhchienwikipedia/react-native-sound-manager/issues"
+  },
+  "homepage": "https://github.com/minhchienwikipedia/react-native-sound-manager#readme",
+  "peerDependencies": {
+    "react-native-sound": ">=0.11.0",
+    "react-native-fs": ">=2.16.6"
+  }
+}
