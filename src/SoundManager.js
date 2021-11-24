@@ -79,6 +79,7 @@ export default class SoundManager {
 
   static getInstance() {
     if (!SoundManager.INSTANCE) {
+      Sound.setCategory("Playback");
       SoundManager.INSTANCE = new SoundManager();
     }
     return SoundManager.INSTANCE;

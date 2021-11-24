@@ -2,7 +2,7 @@ import SoundManager, { IParams, IType, downloadFile } from "./SoundManager";
 
 export const PLAY_SOUND_TYPE = "overlay" | "center" | "override";
 
-export default class SoundApi {
+const SoundApi = {
   /**
      * 
      * @param {*} params 
@@ -16,9 +16,9 @@ export default class SoundApi {
             onDone = () => {}
      },
     */
-  static downloadMediaFile(params, callback) {
+  downloadMediaFile(params, callback) {
     downloadFile(params, callback);
-  }
+  },
 
   /**
    *
@@ -32,19 +32,21 @@ export default class SoundApi {
         cache: Boolean,
         };
    */
-  static play(params, callback) {
+  play(params, callback) {
     SoundManager.getInstance().playSound(params, callback);
-  }
+  },
 
-  static pause() {
+  pause() {
     SoundManager.getInstance().pauseCurrentSound();
-  }
+  },
 
-  static resume() {
+  resume() {
     SoundManager.getInstance().playCurrentSound();
-  }
+  },
 
-  static stop() {
+  stop() {
     SoundManager.getInstance().stopSound();
-  }
-}
+  },
+};
+
+export default SoundApi;

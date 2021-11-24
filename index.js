@@ -1,3 +1,3 @@
-import SoundApi from "./src";
+import SoundManager from "./src";
 
-export default SoundApi;
+export default SoundManager;
