@@ -42,7 +42,7 @@ type IParams = {
 	url: String,
 	loop: Boolean,
 	type: "overlay" | "center" | "override",
-	cache: Boolean, // enable this will be download and re-use that file
+	cache: Boolean, // enable this will be download and re-use that file || Default is true
 };
 */
 /*

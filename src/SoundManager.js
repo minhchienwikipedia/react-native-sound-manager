@@ -100,7 +100,7 @@ export default class SoundManager {
   }
 
   async playSound(
-    { url, loop = false, type = "", cache }: IParams,
+    { url, loop = false, type = "override", cache = true }: IParams,
     callback = () => {}
   ) {
     if (!url) {
