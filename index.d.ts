@@ -12,9 +12,21 @@ type IParams = {
   cache: Boolean,
 };
 
-type CallbackType = (error: any) => void
+type FileParams =  {
+  background: Boolean,
+  url: String,
+  onError: void,
+  onMessage: void,
+  onPercentChange: void,
+  onDone: void
+}
+
+type CallbackType = (value: any) => void
 
 declare class SoundManager {
+
+    static downloadMediaFile(params: FileParams, callback: CallbackType): void
+
     static play(params: IParams, callback:CallbackType): void
 
     static pause(): void
