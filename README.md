@@ -1,6 +1,6 @@
 
 # React Native Sound Manager
-[![npm version](https://badge.fury.io/js/react-native-sound-manager.svg)](https://badge.fury.io/js/react-native-sound-manager) ![](https://img.shields.io/github/issues/minhchienwikipediareact-native-sound-manager.svg) ![](https://img.shields.io/github/forks/minhchienwikipediareact-native-sound-manager.svg) ![](https://img.shields.io/github/stars/minhchienwikipediareact-native-sound-manager.svg) ![](https://img.shields.io/github/license/minhchienwikipediareact-native-sound-manager.svg)
+[![npm version](https://badge.fury.io/js/react-native-sound-manager.svg)](https://badge.fury.io/js/react-native-sound-manager) ![](https://img.shields.io/github/issues/minhchienwikipedia/react-native-sound-manager.svg) ![](https://img.shields.io/github/forks/minhchienwikipedia/react-native-sound-manager.svg) ![](https://img.shields.io/github/stars/minhchienwikipedia/react-native-sound-manager.svg) ![](https://img.shields.io/github/license/minhchienwikipedia/react-native-sound-manager.svg)
 
 [![NPM](https://nodei.co/npm/react-native-sound-manager.png?downloads=true&stars=true)](https://nodei.co/npm/react-native-sound-manager/)
 
