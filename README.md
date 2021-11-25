@@ -1,9 +1,6 @@
 
 # React Native Sound Manager
 [![npm version](https://badge.fury.io/js/react-native-sound-manager.svg)](https://badge.fury.io/js/react-native-sound-manager) ![](https://img.shields.io/github/issues/minhchienwikipedia/react-native-sound-manager.svg) ![](https://img.shields.io/github/forks/minhchienwikipedia/react-native-sound-manager.svg) ![](https://img.shields.io/github/stars/minhchienwikipedia/react-native-sound-manager.svg) ![](https://img.shields.io/github/license/minhchienwikipedia/react-native-sound-manager.svg)
-
-[![NPM](https://nodei.co/npm/react-native-sound-manager.png?downloads=true&stars=true)](https://nodei.co/npm/react-native-sound-manager/)
-
 #### This package help you easy to control audio with support cache url! 
 
 ---
@@ -19,6 +16,10 @@ This package requires these, please make sure you had installed them:
 - OR
 
 `$ yarn add react-native-sound-manager`
+
+- All in one
+
+`$ npm install react-native-sound-manager react-native-sound react-native-fs --save`
 
 ## Usage
 ```javascript
