@@ -67,6 +67,10 @@ SoundManager.resume()
 
 SoundManager.stop()
 
+SoundManager.disable()
+
+SoundManager.enable()
+
 ```
 
 

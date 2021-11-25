@@ -87,6 +87,8 @@ export default class SoundManager {
 
   static current = null;
 
+  static isEnabled = true;
+
   static getUrlFromCache(url, cache) {
     return new Promise((resolve, reject) => {
       if (!cache) {
@@ -99,11 +101,19 @@ export default class SoundManager {
     });
   }
 
+  disable() {
+    SoundManager.isEnabled = false;
+  }
+
+  enable() {
+    SoundManager.isEnabled = true;
+  }
+
   async playSound(
     { url, loop = false, type = "override", cache = true }: IParams,
     callback = () => {}
   ) {
-    if (!url) {
+    if (!url || !SoundManager.isEnabled) {
       return;
     }
 

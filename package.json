@@ -1,6 +1,6 @@
 {
   "name": "react-native-sound-manager",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "React Native Sound Manager",
   "main": "index.js",
   "scripts": {

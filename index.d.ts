@@ -35,6 +35,10 @@ declare class SoundManager {
 
     static stop(): void
 
+    static disable(): void
+    
+    static enable(): void
+
 }
 
 export = SoundManager;

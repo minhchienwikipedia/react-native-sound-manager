@@ -47,6 +47,14 @@ const SoundApi = {
   stop() {
     SoundManager.getInstance().stopSound();
   },
+
+  disable() {
+    SoundManager.getInstance().disable();
+  },
+
+  enable() {
+    SoundManager.getInstance().enable();
+  },
 };
 
 export default SoundApi;
